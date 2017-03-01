@@ -37,10 +37,13 @@ div > div {
   position: relative;
   width: 90%;
   padding: 10px;
+  margin: auto;
 }
 /*** For mobile devices ***/
 .row {
   width: 100%;
+  margin: 0 auto;
+  /*display: inline;*/
 }
 
 /********** Desktop (large) devices only **********/
