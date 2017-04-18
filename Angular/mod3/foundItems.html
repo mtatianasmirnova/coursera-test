@@ -1,0 +1,13 @@
+<div ng-if='list.found.length!==0'>
+    <h2>Found the following items:</h2>
+    <ul>
+        <li ng-repeat='item in list.found'>
+        <div>
+           {{item.name}}
+		 </div>
+		{{item.description}}
+<br><button ng-click='list.onRemove({index:$index})'> Remove </button></br>
+<br> </br>
+        </li>
+    </ul>
+</div>
